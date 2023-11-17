@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de sapatos</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Sapatos</h1>
+        <h2>IsLeony Sapatos</h2>
+        <div class="itens-direita">
+            <a href="#sobre-a-loja">Sobre a Loja</a>
+            <a href="#produtos">Produtos</a>
+    </header>
+    <hr>
+    <div class="container">
+        <section id="sobre-a-loja" class="sobre-a-loja">
+            <div class="coluna-imagem">
+                <img src="./imagens/no-rules-bauru4-1024x768.jpg" alt="Imagem da Loja">
+            </div>
+
+            <div class="coluna-texto">
+
+                <h2 class="colorfull">Sobre a Nossa Loja</h2>
+                <div class="linha-azull"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <p class="colorfull">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt risus vel
+                    orci aliquet, nec
+                    suscipit ligula hendrerit. Sed auctor justo eget velit fermentum, vel ullamcorper arcu luctus.
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum
+                    nec
+                    mi nec ligula ultricies congue vel a leo. Sed vel lacinia urna. Proin tincidunt justo in massa
+                    fermentum, vel tincidunt tortor tristique. Integer varius orci eu justo consectetur, in tincidunt
+                    lacus
+                    efficitur. Sed eu volutpat nisi.</p>
+
+            </div>
+    </div>
+    </section>
+    <section id="produtos" class="produtos">
+        <h2 class="coloriqui">Produtos</h2>
+        <div class="linha-azulll"></div>
+        </div>
+        <div class="deixarisso">
+            <br>
+            <div class="produto">
+                <img src="./imagens/02.jpg" alt="Produto 1">
+                <h3>Nome do Produto 1</h3>
+                <p>Descrição do Produto 1</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto">
+                <img src="./imagens/554a.png" alt="Produto 2">
+                <h3>Nome do Produto 2</h3>
+                <p>Descrição do Produto 2</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto">
+                <img src="./imagens/64709d4339622.jpg" alt="Produto 3">
+                <h3>Nome do Produto 3</h3>
+                <p>Descrição do Produto 3</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto">
+                <img src="./imagens/Sapato-Social-Scatamacchia-Couro-de-Carneiro-Preto-14656-1.webp" alt="Produto 4">
+                <h3>Nome do Produto 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, facere. Minima aspernatur commodi
+                    numquam molestias quia facilis, veniam quisquam, dolor ex magni eaque incidunt veritatis illum
+                    ducimus illo, est harum!</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+    </section>
+    <form>
+        <label for="nome">Seu Nome</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="telefone">Seu Telefone</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="email">Seu endereço de email</label>
+        <input type="email" id="email" name="email">
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        // Função para alternar a visibilidade da sessão de produtos
+        function toggleProdutos() {
+            var sectionProdutos = document.getElementById('sectionProdutos');
+            sectionProdutos.style.display = (sectionProdutos.style.display === 'none') ? 'block' : 'none';
+        }
+
+        // Adicione essa função para exibir a seção de produtos quando clicar em "Produtos"
+        function mostrarProdutos() {
+            var sectionProdutos = document.getElementById('sectionProdutos');
+            sectionProdutos.style.display = 'block';
+        }
+    </script>
+
+
+
+
+    <footer class="tudoazul">@Isleony - Todos os direitos reservados</footer>
+
+</body>
+
+</html>

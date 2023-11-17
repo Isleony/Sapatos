@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    padding-top: 16px;
+    
+}
+
+.itens-direita {
+    text-align: right;
+    margin-top: 1px;
+    bottom: 10px;
+    padding: 0 10px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+    height: 100%;
+}
+
+img {
+    max-width: 40%;
+}
+
+.linha-azull {
+    border-bottom: 5px solid rgb(0, 110, 255);
+    /* Cor e estilo da linha azul */
+    margin: 0 1px;
+    /* Centraliza a div na página e ajusta margens */
+    width: 60%;
+    /* Define a largura da div como 50% da largura da página */
+    height: 90px;
+}
+
+.sobre-a-loja {
+    border: none;
+}
+
+.sobre-a-loja{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none; 
+    color: #ffffff; 
+    padding: 10px; 
+    margin-right: 20px; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #780303; /* Cor quando o mouse passa por cima do link */
+}
+
+.colorfull {
+    color: rgb(0, 76, 255);
+}
+
+.primeirostres {
+    border: none;
+    margin: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.sobre-a-loja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.coluna-imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.coluna-texto {
+    flex: 1;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.coloriqui {
+    color: blue;
+    font-size: 24px;
+}
+
+.produto {
+    width: 200px;
+    text-align: center; /* Corrigido para 'center' */
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+}
+
+.linha-azulll {
+    border-bottom: 5px solid rgb(0, 110, 255);
+    /* Cor e estilo da linha azul */
+    margin: 0 1px 1px;
+    /* Centraliza a div na página e ajusta margens */
+    width: 60%;
+    /* Define a largura da div como 50% da largura da página */
+    height: 90px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.blue {
+    border: 1px solid blue;
+    /* Cor da linha azul */
+}
+
+.deixarisso{
+    display: flex;
+    margin-left: 10px 0 0;
+    justify-content: space-between
+}
+
+.tudoazul {
+    background-color: blue;
+    font-style: normal;
+    color: azure;
+    size: 50px;
+}
+
+
+/* Estilos específicos para desktop (a partir de 1024px) */
+@media (min-width: 1024px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Estilos específicos para tablet (de 641px até 1023px) */
+@media (min-width: 641px) and (max-width: 1023px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+/* Estilos específicos para mobile (até 640px) */
+@media (max-width: 640px) {
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
